@@ -14,5 +14,7 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     action: 'Create Or Update Resource Group'
+    resourceGroupName: 'LiorRG'
+    location: 'Central US'
     templateLocation: 'Linked artifact'
     deploymentMode: 'Incremental'
